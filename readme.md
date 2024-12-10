@@ -1,28 +1,28 @@
-# Financial Literacy Chatbot
+# Grocery Shopping Chatbot
 
-## Project Overview
-The **Financial Literacy Chatbot** helps users by answering financial questions and providing guidance on topics such as budgeting, saving, investing, and financial planning. It uses **Natural Language Processing (NLP)** and **Logistic Regression** for intent classification.
-
-## Technologies Used
-- Python
-- Streamlit (for the web interface)
-- NLTK (for NLP tasks)
-- scikit-learn (for Logistic Regression)
-- JSON (for storing intents data)
+## Overview
+This chatbot helps users with grocery shopping. It allows them to view and add items to their shopping list, check out, inquire about delivery times, and much more. The chatbot is built using Natural Language Processing (NLP) and a Logistic Regression model.
 
 ## Features
-- Interactive chatbot interface
-- Provides responses on financial topics
-- Tracks and saves conversation history
+- **Greeting and Farewell**: The chatbot can greet users and say goodbye.
+- **Add/Remove Items**: Users can add or remove items from their shopping list.
+- **Product Availability**: The chatbot checks if specific products are available.
+- **Checkout and Payment**: The chatbot assists with checkout and payment options.
+- **Order Tracking**: It provides users with updates on their order status and delivery.
+- **Promotions**: The chatbot informs users of current promotions and discounts.
+- **Customer Support**: It offers help and support for users with any issues.
+
+## Requirements
+- Python 3.6+
+- Streamlit
+- scikit-learn
+- nltk
 
 ## Installation
+
 1. Clone this repository:
    ```bash
    git clone <repository_url>
-2. Install the necessary dependencies:
-   ```bash
-   pip install -r requirements.txt
-4. Run the chatbot app:
-   ```bash
-   streamlit run app.py
+
+
 
