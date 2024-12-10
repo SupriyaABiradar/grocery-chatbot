@@ -8,7 +8,6 @@ This chatbot helps users with grocery shopping. It allows them to view and add i
 - **Add/Remove Items**: Users can add or remove items from their shopping list.
 - **Product Availability**: The chatbot checks if specific products are available.
 - **Checkout and Payment**: The chatbot assists with checkout and payment options.
-- **Order Tracking**: It provides users with updates on their order status and delivery.
 - **Promotions**: The chatbot informs users of current promotions and discounts.
 - **Customer Support**: It offers help and support for users with any issues.
 
