@@ -23,6 +23,12 @@ This chatbot helps users with grocery shopping. It allows them to view and add i
 1. Clone this repository:
    ```bash
    git clone <repository_url>
+2. Install the necessary dependencies:
+    ```bash
+    pip install -r requirements.txt
+3.Run the chatbot app:
+   ```bash
+   streamlit run app.py
 
 
 
