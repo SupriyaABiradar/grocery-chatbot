@@ -1,0 +1,119 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Hi there"],
+            "responses": ["Hello! How can I assist you with your grocery shopping today?", "Hi! How can I help with your grocery list?", "Hello! What can I get for you today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you", "Goodbye", "Take care", "See you later", "Farewell"],
+            "responses": ["Goodbye! Have a great shopping experience!", "Take care! Come back soon.", "Goodbye! Hope to see you again soon!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Thanks a lot", "Thank you very much"],
+            "responses": ["You're welcome!", "No problem! Happy shopping!", "Anytime! Let me know if you need anything else."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Can you help me?", "I need assistance", "Help me", "Can you assist me?", "I have a question"],
+            "responses": ["Of course! What can I help you with?", "I'm here to help! What do you need assistance with?", "Sure! How can I assist you today?"]
+        },
+        {
+            "tag": "store_hours",
+            "patterns": ["What time do you close?", "What are your store hours?", "When do you open?", "Are you open today?", "What time does the store open?"],
+            "responses": ["Our store opens at 8 AM and closes at 9 PM every day.", "We are open from 8 AM to 9 PM daily.", "Our store is open from 8 AM to 9 PM. Let me know if you need anything else!"]
+        },
+        {
+            "tag": "store_location",
+            "patterns": ["Where is the store?", "Where can I find you?", "Where is your location?", "How do I get to the store?", "Can you tell me your address?"],
+            "responses": ["Our store is located at 123 Main Street. We're easy to find!", "We are located at 123 Main Street. Visit us anytime!", "The store is at 123 Main Street. See you soon!"]
+        },
+        {
+            "tag": "discounts",
+            "patterns": ["Are there any discounts?", "Do you have any discounts?", "What are your current offers?", "Are there any sales happening?"],
+            "responses": ["Yes! We have a 10% discount on all fruits and vegetables today!", "Right now, all dairy products are 20% off.", "We’re running a sale on snacks! Buy one, get one free!"]
+        },
+        {
+            "tag": "vegetables",
+            "patterns": ["Do you have fresh vegetables?", "Where are the vegetables?", "Can you help me find the vegetables?", "Where are the carrots?", "Where are the tomatoes?"],
+            "responses": ["Fresh vegetables are in aisle 3. You can find carrots, tomatoes, and more there.", "Vegetables are in aisle 3. Let me know if you need any specific ones!", "The vegetable section is in aisle 3. We have a variety of fresh produce!"]
+        },
+        {
+            "tag": "fruits",
+            "patterns": ["Where can I find fruits?", "Do you have fresh fruits?", "Where are the apples?", "Where are the bananas?", "Can I get oranges here?"],
+            "responses": ["Fruits are in aisle 4. You'll find a variety of fresh fruits including apples, bananas, and oranges.", "Fresh fruits are in aisle 4. Let me know if you need anything else!", "You can find all your favorite fruits in aisle 4."]
+        },
+        {
+            "tag": "dairy",
+            "patterns": ["Where is the dairy section?", "Do you have milk?", "Where are the eggs?", "Do you have cheese?", "Can I find butter here?"],
+            "responses": ["Dairy products are in aisle 5. You can find milk, eggs, cheese, and more.", "The dairy section is in aisle 5. Check out our selection of fresh milk and cheese!", "Dairy products are in aisle 5. We have a variety of milk, eggs, and butter."]
+        },
+        {
+            "tag": "bakery",
+            "patterns": ["Where is the bakery?", "Do you have bread?", "Where are the cakes?", "Can I get some fresh bread?", "Do you have pastries?"],
+            "responses": ["The bakery is located in aisle 6. You can find fresh bread, cakes, and pastries.", "You can find freshly baked bread and pastries in aisle 6.", "Bakery items like bread and cakes are in aisle 6. Enjoy!"]
+        },
+        {
+            "tag": "meat",
+            "patterns": ["Where is the meat section?", "Do you have chicken?", "Where is the beef?", "Can I get fish here?", "Where is the pork?"],
+            "responses": ["The meat section is in aisle 7. We have a variety of chicken, beef, and pork.", "Aisle 7 has all your meat needs including chicken, beef, and fish.", "You can find fresh meat including chicken and beef in aisle 7."]
+        },
+        {
+            "tag": "beverages",
+            "patterns": ["Where can I find beverages?", "Do you have juice?", "Where are the sodas?", "Can I get some water?", "Do you have coffee?"],
+            "responses": ["Beverages are in aisle 8. We have a wide variety of juices, sodas, and coffee.", "You can find sodas, juices, and water in aisle 8.", "The beverages section is in aisle 8. Enjoy a refreshing drink!"]
+        },
+        {
+            "tag": "cereal",
+            "patterns": ["Do you have cereal?", "Where are the cereals?", "Can I find oatmeal?", "Where are the breakfast items?", "Do you have granola?"],
+            "responses": ["Cereal is in aisle 9. We have a variety of options including oatmeal and granola.", "The cereal aisle is number 9. You’ll find many breakfast choices there!", "Aisle 9 has cereals like oatmeal, granola, and more."]
+        },
+        {
+            "tag": "snacks",
+            "patterns": ["Do you have snacks?", "Where are the chips?", "Can I get cookies?", "Where are the nuts?", "Do you have chocolate?"],
+            "responses": ["Snacks are in aisle 10. We have chips, cookies, nuts, and chocolate.", "The snacks section is in aisle 10. Grab your favorite treats!", "Aisle 10 has a variety of snacks including chips and chocolate."]
+        },
+        {
+            "tag": "frozen_food",
+            "patterns": ["Where is the frozen food?", "Do you have frozen pizza?", "Where are the frozen vegetables?", "Can I find ice cream?", "Where are frozen meals?"],
+            "responses": ["Frozen food is in aisle 11. We have pizza, ice cream, and frozen vegetables.", "The frozen section is in aisle 11. Check out our frozen pizzas and ice cream!", "Frozen meals and ice cream are in aisle 11."]
+        },
+        {
+            "tag": "cleaning_supplies",
+            "patterns": ["Do you have cleaning supplies?", "Where are the cleaning products?", "Can I find detergent?", "Where are the mops?", "Do you have dish soap?"],
+            "responses": ["Cleaning supplies are in aisle 12. You can find detergents, mops, and dish soap.", "Aisle 12 has all your cleaning needs, including detergents and mops.", "You can find cleaning products like soap and mops in aisle 12."]
+        },
+        {
+            "tag": "personal_care",
+            "patterns": ["Where can I find personal care products?", "Do you have shampoo?", "Where is the toothpaste?", "Can I find soap?", "Do you have deodorant?"],
+            "responses": ["Personal care products are in aisle 13. We have shampoo, toothpaste, and soap.", "Aisle 13 has everything for personal care, including shampoo and deodorant.", "You can find personal care items like soap and toothpaste in aisle 13."]
+        },
+        {
+            "tag": "pet_supplies",
+            "patterns": ["Do you have pet supplies?", "Where are the pet foods?", "Can I get dog food?", "Where are the cat litter?", "Do you have pet toys?"],
+            "responses": ["Pet supplies are in aisle 14. You’ll find pet food, toys, and litter.", "The pet section is in aisle 14. We have food, toys, and litter for your pets.", "Aisle 14 has everything for your pets, including food and litter."]
+        },
+        {
+            "tag": "questions",
+            "patterns": ["Can you tell me more about this item?", "What is this?", "Can you explain this product?", "Tell me more about this product", "Is this organic?"],
+            "responses": ["Let me know what you're interested in, and I can provide more information!", "I can help you find more details about any item. Which one?"]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": ["What payment methods do you accept?", "How can I pay?", "Do you accept credit cards?", "Can I pay with PayPal?"],
+            "responses": ["We accept credit cards, debit cards, and mobile payments like PayPal and Apple Pay.", "You can pay using a credit card, debit card, or PayPal.", "We accept all major credit and debit cards, and PayPal."]
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["Do you offer delivery?", "Can you deliver groceries?", "Do you have home delivery?", "Can I get my order delivered?", "How does the delivery work?"],
+            "responses": ["Yes, we offer home delivery. Just add items to your cart, and we'll handle the rest!", "We provide home delivery for all your grocery orders!", "Delivery is available for all orders. Let us know what you need."]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": ["What is your return policy?", "How can I return an item?", "Can I return a product?", "What are your return rules?", "How do I return something?"],
+            "responses": ["We accept returns within 30 days of purchase. Just bring the receipt or order number!", "Our return policy allows returns within 30 days. Keep your receipt for easy processing.", "Returns are accepted within 30 days with a receipt or proof of purchase."]
+        }
+    ]
+}
